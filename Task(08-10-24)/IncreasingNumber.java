@@ -9,14 +9,14 @@ public class IncreasingNumber {
 		for (int i = 0; i < temp.length(); i++)
 		{
 		    arr[i] = temp.charAt(i) - '0';
-		    System.out.println(arr[i]);
+		   
 		    
 		}
-		System.out.println("done");
+		
 		int[] newarr = new int[arr.length];
 		for (int i1 =0 ; i1<arr.length;i1++) {
 			newarr[i1] = arr[i1];
-			System.out.println(newarr[i1]);
+			
 		}
 		Arrays.sort(newarr);
 		bool = Arrays.equals(arr,newarr);
